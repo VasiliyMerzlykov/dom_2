@@ -35,5 +35,7 @@ setInterval(() => {
   if (counter % 2 !== 0) {
     titles[0].classList.add('up');
   } else titles[0].classList.remove('up');
-  counter === (arrSort.length - 1) ? counter = 1 : counter += 1;
+  if (counter === (arrSort.length - 1)) {
+    counter = 1;
+  } else counter += 1;
 }, 2000);
