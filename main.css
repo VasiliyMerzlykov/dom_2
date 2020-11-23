@@ -1,0 +1,14 @@
+.title {
+    background-color: #FFE4B5;
+    border: #800000 solid 2px;
+}
+body {
+    display: flex;
+}
+
+.down:after {
+    content: ' \2193';
+}
+.up:after {
+    content: ' \2191';
+}
